@@ -17,6 +17,13 @@ ASC MCP Checker 是一个基于 Flutter 的原理图管理工具，通过 Model 
 - **通信协议**：WebSocket + JSON-RPC，实现前后端通信
 - **后端**：Rust 服务，处理原理图数据和业务逻辑
 
+## 必需的后端服务
+
+本项目必须使用以下后端服务才能正常运行：
+[asc_mcp_server](https://github.com/dpineer/asc_mcp_server)
+
+请确保在运行前端应用之前，已正确安装并启动该后端服务。
+
 ## 安装与运行
 
 ### 前提条件
