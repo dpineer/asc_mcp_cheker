@@ -1,0 +1,119 @@
+# Flutter build/ and .dart_tool/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.ios/
+.macos/
+.linux/
+.windows/
+android/.gradle/
+android/gradle/
+android/app/build/
+ios/Flutter/.last_build_id
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+windows/runner/FlutterWindow.cpp
+windows/runner/FlutterWindow.h
+windows/runner/run_loop.cpp
+windows/runner/run_loop.h
+windows/runner/utils.cpp
+windows/runner/utils.h
+windows/runner/win32_window.cpp
+windows/runner/win32_window.h
+windows/runner/main.cpp
+windows/runner/main.h
+
+# Android
+**/android/**/gradle-wrapper.properties
+**/android/.gradle
+**/android/build/
+**/android/app/build/
+
+# iOS
+**/ios/**/.symlinks
+**/ios/Pods
+**/ios/Runner/Assets.xcassets
+**/ios/Flutter/ephemeral
+**/ios/.symlinks
+
+# macOS
+**/macos/.symlinks
+**/macos/Pods
+**/macos/Flutter/ephemeral
+**/macos/.symlinks
+
+# Windows
+**/windows/.symlinks
+**/windows/Flutter/ephemeral
+**/windows/.symlinks
+
+# Linux
+**/linux/.symlinks
+**/linux/Flutter/ephemeral
+**/linux/.symlinks
+
+# Temporary files
+*.rbc
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.launch
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.swp
+*.swo
+*~
+._*
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE related
+.vscode/
+.idea/
+
+# User-specific configuration files
+**/config.json
+**/.config/
+**/config/
+**/settings.json
+**/local.properties
+**/secrets.properties
+**/credentials.json
+**/keys.json
+**/api_keys.json
+**/auth.json
+**/tokens.json
+**/private_key
+**/secret_key
+**/access_token
+**/refresh_token
+**/oauth_token
+**/passwords.json
+**/accounts.json
+**/keys/
+**/secrets/
+**/credentials/
+**/tokens/
+**/private/
+**/secret/
+
+# Specific config file paths
+/home/dpiner/.config/asc_mcp_cheker/config.json
+.config/asc_mcp_cheker/config.json
+asc_mcp_cheker/config.json
+config.json
